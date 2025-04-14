@@ -1,0 +1,24 @@
+# Team Settings
+teamid=dg0311
+root_project=lifesub
+namespace=dg0311-lifesub-ns
+
+# Container Registry Settings
+registry=acrdigitalgarage02.azurecr.io
+image_org=dg0311
+
+# Application Settings
+replicas=1
+allowed_origins=http://20.249.207.220
+ingress_host=dg0311.20.249.184.228.nip.io
+
+# Security Settings
+jwt_secret_key=V4Q4kTwTPZFj2kbu8/oVNgQ6syAWzYo1m4h9W7EraOo=
+postgres_user=postgres
+postgres_password=Hi5Jessica!
+
+# Resource Settings
+resources_requests_cpu=256m
+resources_requests_memory=256Mi
+resources_limits_cpu=1024m
+resources_limits_memory=1024Mi

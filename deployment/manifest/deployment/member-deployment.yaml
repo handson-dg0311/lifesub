@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: member
-        image: acrdigitalgarage01.azurecr.io/dg0305/member:1.0.0
+        image: acrdigitalgarage02.azurecr.io/dg0311/member:1.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8081
