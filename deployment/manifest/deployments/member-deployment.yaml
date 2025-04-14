@@ -17,7 +17,7 @@ spec:
         - name: dockerhub
       containers:
         - name: member
-          image: dg0200cr.azurecr.io/lifesub/member:1.0.0
+          image: docker.io/taeukim/member:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8081
